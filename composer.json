@@ -1,0 +1,19 @@
+{
+  "autoload": {
+    "psr-4": {
+      "" : "src/"
+    }
+  },
+  "require": {
+    "jkan/passwordencoder": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.0.*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/jkanclerz/password-encoder.git"
+    }
+  ]
+}
