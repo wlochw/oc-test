@@ -4,7 +4,7 @@
  * @author Jakub Kanclerz <kuba.kanclerz@creativestyle.pl>
  * Feel free to contact me
  */
-namespace Wwloch\Component\Password;
+namespace Wwloch\Password;
 interface EncodingMethod
 {
     public function encode($plainText);

@@ -2,9 +2,9 @@
 
 namespace Tests;
 
-use Wwloch\Component\Password\Encoder;
-use Wwloch\Component\Password\Method\Md5Encoding;
-use Wwloch\Component\Password\Method\Sha1Encoding;
+use Wwloch\Password\Encoder;
+use Wwloch\Password\Method\Md5Encoding;
+use Wwloch\Password\Method\Sha1Encoding;
 
 class EncodingMethodTest extends \PHPUnit_Framework_TestCase
 {
