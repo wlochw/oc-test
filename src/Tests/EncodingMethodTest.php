@@ -28,7 +28,8 @@ class EncodingMethodTest extends \PHPUnit_Framework_TestCase
         //
 	$method = new Sha1Encoding();
 	$encoder = new Encoder($method);
-        $this->assertEquals(
+       
+	$this->assertEquals(
             '2181b2633e7ae8c3e964317dbd591eee51ab7a6d',
             $encoder->encodePassword(self::PASSWORD)
         );
